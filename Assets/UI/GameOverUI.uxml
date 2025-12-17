@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameOverUSS.uss?fileID=7433441132597879392&amp;guid=cc2301bed6b7966469e5198e2831b6b3&amp;type=3#GameOverUSS" />
+    <ui:VisualElement name="EndGameMessage" class="endgame-container">
+        <ui:Label name="HighScoreLabel" text="" class="endgame-highscore" />
+        <ui:Label name="FinalScoreLabel" text="" class="endgame-score" />
+        <ui:Label name="RetryLabel" text="" class="endgame-retry" />
+    </ui:VisualElement>
+</ui:UXML>

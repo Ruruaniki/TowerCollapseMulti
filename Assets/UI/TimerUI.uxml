@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/TimerUSS.uss?fileID=7433441132597879392&amp;guid=9eb19267480251a4893193e03130ae7c&amp;type=3#TimerUSS" />
+    <ui:VisualElement name="HighScoreContainer" class="hud-row">
+        <ui:Label text="High Score :" class="hud-label" />
+        <ui:Label name="HighScoreValue" text="0" class="hud-label" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="ScoreContainer" class="hud-row">
+        <ui:Label text="Score :" class="hud-label" />
+        <ui:Label name="ScoreValue" text="0" class="hud-label" />
+    </ui:VisualElement>
+
+    <ui:VisualElement name="TimerContainer" class="hud-row">
+        <ui:Label text="Time :" class="hud-label" />
+        <ui:Label name="TimerValue" text="30" class="hud-label" />
+    </ui:VisualElement>
+</ui:UXML>
